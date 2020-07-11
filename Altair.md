@@ -4,7 +4,8 @@
 
 # Histogram
 
-``` alt.Chart(df).mark_bar().encode(
+``` 
+    alt.Chart(df).mark_bar().encode(
     x=alt.X('Brain Weight',bin=True,title="Brain Weight Binned"),
     y="count()"
 ).properties(
