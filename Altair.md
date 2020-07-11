@@ -1,7 +1,7 @@
 # Import altair
 
 import altair as alt
-# if in notebook
+#### if in notebook
 alt.renderers.enable("notebook")
 
 # Histogram
